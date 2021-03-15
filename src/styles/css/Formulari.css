@@ -1,0 +1,51 @@
+.form p {
+  width: 500px;
+  height: 20px;
+}
+
+.form p span{
+  width: 200px;
+  height: 20px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.theDiv {
+  height: 40px;
+}
+
+* {
+    color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+  .submit-button {
+    padding: .5rem 1rem 2rem 1rem;
+    width: 6rem !important;
+    background-color: green;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: rgb(4, 83, 4);
+}
+
+.list-enter-active, .list-leave-active {
+  transition: opacity 1s ease-out;
+}
+.list-enter, .list-leave-to  {
+  opacity: 0;
+}
